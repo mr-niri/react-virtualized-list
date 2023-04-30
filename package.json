@@ -1,0 +1,30 @@
+{
+  "name": "react-virtualized-list",
+  "version": "1.0.0",
+  "description": "l",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "rollup": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ali Dehghan & Mohammad Zoroufchin",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@rollup/plugin-typescript": "8.3.3",
+    "@types/react": "^18.2.0",
+    "react": "^18.2.0",
+    "rollup": "^2.60.0",
+    "rollup-plugin-dts": "^4.0.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "sass": "^1.62.1"
+  }
+}
